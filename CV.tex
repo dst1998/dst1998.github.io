@@ -1,0 +1,542 @@
+\documentclass[10.5pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+% \usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false, 
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=blue,
+    citecolor=cyan,
+}
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indent section style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{#1}}%
+     \item[]
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+{\setlength{\leftmargin}{-0.5#1}}%
+\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+#1 &
+#2 \\
+\end{tabular*}}
+
+% Make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+\begin{center}
+	{\Huge \textbf{Shuting Du}}\\
+	
+	\vspace{0.13cm}
+	
+	\raisebox{-0.2\height}{\Large }  \\
+    +1 (919) 937-1932 \hfill  \ \ 
+    West Lafayette, IN 47906 \hfill \ \  
+    \href{mailto:shutingdu@purdue.edu}{\underline{shutingdu@purdue.edu}} \hfill  \ \
+    \href{https://www.linkedin.com/in/shuting-du/}{\underline{linkedin.com/in/shuting-du}} \hfill \ \
+    \href{https://scholar.google.com/citations?hl=en&user=HPHuVUUAAAAJ}{\underline{Google Scholar}} \hfill
+ 
+\end{center}
+%--------------Summary----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Summary}
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em, label={}]
+    \item
+    PhD candidate specializing in high-performance, low-power AI systems and hardware–software co-design. Proven expertise in developing 3D-IC architectures, compute-in-memory chips, and heterogeneous SoC accelerators. Skilled in modeling, designing, and optimizing AI/ML workloads across device, circuit, architecture, and system levels.
+\end{itemize}
+%--------------Summary end----------------%
+%--------------Education----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Education}
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+        %\item
+	      \headerrow
+	      {\textbf{\large Purdue University}}
+	      {\textbf{West Lafayette, IN}}
+	      \headerrow
+	      {\emph{Doctor of Philosophy, Electrical and Computer Engineering}  }
+	      {\emph{Aug 2023 -- Present}}	
+	    %\item
+	      \headerrow
+	      {\textbf{\large Duke University}}
+	      {\textbf{Durham, NC}}
+	      \headerrow
+	      {\emph{Master of Science, Electrical and Computer Engineering}  }
+	      {\emph{Aug 2021 -- May 2023}}	
+        %\item
+	      \headerrow
+	      {\textbf{\large Southeast University}}
+	      {\textbf{Nanjing, China}}
+	      \headerrow
+	      {\emph{Bachelor of Engineering, Electronic Science and Technology}}
+	      {\emph{Sept 2016 -- Jun 2020}}      	      	      
+\end{itemize}
+%--------------Education end----------------%
+%--------------Research Interests----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Research Interests}
+
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em, noitemsep,label={}]
+    \item Cross-layer algorithm–hardware co-design for AI acceleration 
+    \item Energy-efficient and scalable 3D heterogeneous System-on-Chip architectures
+    \item Memory-centric hardware accelerator based on emerging technologies
+\end{itemize}
+%--------------Research Interests end----------------%
+%--------------Skills----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Skills}
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=1em, noitemsep,label={}]
+    \item 
+    \textbf{Programming \& Frameworks:} Python, C++, C, Verilog, SystemVerilog, Matlab, CUDA, PyTorch
+    \item 
+    \textbf{Simulators \& Modeling:} Gem5, GPGPU-Sim, Accel-Sim, SCALE-Sim, Timeloop, DRAMSim, Ramulator, NVMain
+    \item 
+    \textbf{EDA \& IC Design Flow:} Cadence Virtuoso, Synopsys Design Compiler, HSPICE, Mentor Graphics, Multisim
+    \item 
+    \textbf{Hardware Prototyping:} FPGA Design (Quartus, Vivado), PCB Design (Altium Designer)
+    \item
+    \textbf{Hardware \& Architecture:} RTL Design, Microarchitecture, Low-Power Design, PPA Optimization, 3D-IC/Chiplet Architecture, On-Chip Networks (NoC), CMOS and Emerging Tech. Memory Systems
+\end{itemize}
+%--------------Skills end----------------%
+%--------------Research Experience----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Research Experience}
+\renewcommand\labelitemi{}
+\renewcommand\labelitemii{$\bullet$}
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+    \item
+	      \headerrow
+	      {\textbf{\large NanoX Lab, Purdue University}}
+	      {\textbf{West Lafayette, IN}}
+	      \headerrow
+	      {\emph{Research Assistant, advised by Prof. Haitong Li}}
+	      {\emph{Aug 2023 -- present}}
+        
+        \textbf{Heterogeneous Chiplet Co-Design for In-Memory Edge LLM Acceleration}
+	      \begin{itemize*}
+	      \item{Designed 3D-CIMlet, a heterogeneous chiplet framework for in-memory acceleration of edge LLM inference and continual learning, with \textbf{thermal-aware modeling} and \textbf{multi-die design exploration} for 2.5D/3D systems.}
+        \item{Developed \textbf{memory-reliability-aware chiplet mapping strategies} for heterogeneous integration of RRAM/eDRAM, and hybrid dies in mixed technology nodes. Enabled efficient in-memory compute-storage allocation and chiplet interconnect optimization, flexible model-to-architecture mapping space, and chiplet-to-package thermal analysis.}
+        \item{Achieved 9.3×/12× energy efficiency improvement and 90.2\%/92.5\% EDP reduction in 2.5D/3D designs, supporting scalable and energy-efficient deployment of edge LLM workloads.}
+	      \end{itemize*}
+
+        \textbf{Floating-Point Compute-in-Memory Engine with RRAM–eDRAM Fusion}
+        \begin{itemize*}
+	      \item{Developed a floating-point (FP) compute-in-memory (CIM) engine with RRAM–eDRAM fusion macros and a novel multiply-accumulate-compute (MAC) dataflow, eliminating alignment-induced accuracy loss, reducing area overhead, and enabling high-speed, energy-efficient FP computation for edge AI acceleration.}
+        \item{Implemented a pipelined accumulator and a power-aware synthesis with a multi-Vt library for energy-efficient 3D-MAC dataflow. Decoupled read/write ports of gain-cell eDRAM for parallel compute–update operations, and applied interleaved access across RRAM/eDRAM macros to double effective bandwidth.}
+        \item{Achieved 38.5 TFLOPS/W energy efficiency at 600 MHz, and only 1.75\% accuracy degradation with Tiny-ViT on CIFAR-10, and up to 4.84× and 8.48× figure-of-merit gains over prior SRAM/RRAM baselines.}
+	      \end{itemize*}
+
+        \textbf{Device–Circuit Co-Design of Reconfigurable memory for 3D LLM Accelerator}
+        \begin{itemize*}
+        \item{Developed a 2T oxide-semiconductor (OS) non-volatile gain-cell memory enabling \textbf{in-memory reconfiguration between static and dynamic operations} for LLM inference and continual learning.}
+        \item{Implemented a 3D “sandwich” integration scheme combining OS logic and memory layers on CMOS. Designed a floating-point 3D LLM accelerator using reconfigurable FP/INT compute modes, \textbf{system-technology co-design modeling}, and 3D inter-tier dataflow optimization to enhance utilization and reduce on-chip data transfer overhead.}
+        \item{Achieved 32.9 TOPS/W energy efficiency and 102.4 TOPS/mm$^2$ compute density—2.3×/3.2× gains over planar CMOS and DRAM baselines.}
+        \end{itemize*}
+
+        \textbf{Cross-Layer Co-Design for Vector-Symbolic Hardware Acceleration}
+        \begin{itemize*}
+        \item{Pioneered a \textbf{cross-layer design framework} for vector-symbolic computing (VSA) that unifies algorithm, architecture, and hardware perspectives to enable efficient cognitive computing acceleration.}
+        \item{Analyzed \textbf{co-design principles} from symbolic kernels to hardware implementations. Proposed heterogeneous memory architectures achieving up to 86\% lower latency and 2.6× energy efficiency over homogeneous designs.}
+        \item{Proposed a \textbf{unified VSA hardware–algorithm co-design framework and memory-centric VSA design template} and identified open challenges toward scalable, energy-efficient brain-inspired AI systems.}
+        \end{itemize*}
+
+        \textbf{System–Technology Co-Optimization (STCO) for Representation and Memory Heterogeneity}
+        \begin{itemize*}
+        \item{Designed a STCO framework integrating algorithmic representations with heterogeneous memory for edge systems, validated across diverse workloads, including DNNs, LLMs, VSAa, and optimization solvers.}
+        \item{Developed \textbf{memory-centric model partitioning and mapping} on heterogeneous chiplets, and characterized functional diversity of memory units integrating compute, storage and adaptive processing.}
+        \item{Unified \textbf{representation-driven workloads} under a single cross-layer modeling framework, providing design guidelines for scalable and energy-efficient edge intelligence accelerators.}
+        \end{itemize*}
+          
+    \item
+	      \headerrow
+	      {\textbf{\large Center of Computational Evolutionary Intelligence, Duke University}}
+	      {\textbf{Durham, NC}}
+	      \headerrow
+	      {\emph{Research Assistant, advised by Prof. Yiran Chen and Prof. Helen (Hai) Li}}
+	      {\emph{Jan-- Oct 2022}}
+        \textbf{SRAM Computing-in-Memory (CIM)  Macro Design}
+	      \begin{itemize*}
+            % \item A 65nm 4Kb 8T SRAM Computing-in-Memory Macro with Hybrid Digital/Analog Mode, Standard IC design digital flow, analog customized prototype.
+	      	\item Designed 8T SRAM-CIM macro supporting multi-bit MAC operations for edge AI, achieving up to 3-bit sensing read-out circuits, improving area efficiency via a customized flash ADC. 
+	      	\item Implemented 8T computing cell and multi-bit read-out circuits in the current domain with up to 3b sensing with a flash ADC to improve the area efficiency.
+	      	\item Developed an auto error correction scheme with a digital near-memory processing technique.
+	      \end{itemize*}        
+	   \item
+	      \headerrow
+	      {\textbf{\large Efficient, Secure and Intelligent Computing Lab, Arizona State University}}
+	      {\textbf{Tempe, AZ}}
+	      \headerrow
+	      {\emph{Research Assistant, advised by Prof. Deliang Fan}}
+	      {\emph{Jun-- Aug 2022}}
+        \textbf{Processing-in-Memory (PIM) Evaluation Tool Optimization}
+	      \begin{itemize*}
+            % \item Processing-in-Memory Evaluation Tool PIMA-SIM Optimization, High-level memory and circuit simulation with C++
+	      	\item Developed a PIM evaluation tool PIMA-SIM on top of the NVSIM to extract the performance data (i.e. delay, energy, area) of various PIM technologies based on non-volatile memories and SRAM. 
+	      	\item Improved the flexibility of PIM-level configurations in the platform by supporting various high-level customized components including row activation scheme, add-ons at sub-array/mat/bank level.
+	      	\item Evaluated PIM performance based on novel high-density 28nm STT-assisted SOT-MRAM (with 8 MTJs sharing the same SOT layer), which achieved 95.4\% lower energy consumption, 1.6x speed up, and 65\% less area overhead compared to SRAM.
+	      \end{itemize*}
+      \item
+	      \headerrow
+	      {\textbf{\large SEU-FEI Nano-Pico Center, Southeast University}}
+	      {\textbf{Nanjing, China}}
+	      \headerrow
+	      {\emph{Undergraduate Student, advised by Prof. Litao Sun}}
+	      {\emph{Apr– Jun 2020}}
+        \textbf{Electro-oculogram (EOG) signal processing and analysis}
+	      \begin{itemize*}
+            \item Achieved the module of EOG signal collecting, 300x signal amplifying and 50Hz low pass filtering with chip INA333, OPA2333 and right leg drive circuit. Designed the Printed Circuit Board from wiring, layout designing to testing using Altium Designer (AD).
+	      	\item Tested and analyzed the performance of the signal processing using Matlab based on SEED database. Completed the accurate signal amplification, and retained the character of the analog EOG with 1.76\% high-pass filter cut-off frequency error, providing high quality processed EOG signal to subsequent HCI system.
+	      \end{itemize*}
+	      	      
+\end{itemize}
+%--------------Research Experience----------------%
+% %--------------Projects Experience----------------%
+% \hrule
+% \vspace{-1em}
+% \subsection*{\Large Project Experience}
+% \renewcommand\labelitemi{}
+% \renewcommand\labelitemii{$\bullet$}
+% \begin{itemize}[leftmargin=1em]
+% 	\parskip=0.1em       
+% 	\item
+% 	      \headerrow
+% 	      {\textbf{\large A single cycle 32-bit MIPS processor design}}
+% 	      {\textbf{Durham, NC}}
+% 	      \headerrow
+% 	      {\emph{ Arch design and layout extraction using Verilog and VLSI CAD tool, advised by Prof. Rabih Younes, Duke}}
+% 	      {\emph{Oct.-- Dec. 2021}}
+% 	      \begin{itemize*}
+% 	      	\item Designed a 50 MHz single cycle 32-bit processor with registers and arithmetic-logic unit, implementing data reading and writing between instruction memory and data memory based on R,I,J-type instructions.
+% 	      	\item Synthesized the RTL-level netlist using Design compiler and optimized the 0.13um ALU performance based on design of carry-lookahead adder. Improved area and power consumption with ~30\% by implementing output selection and circuit reconfiguration using Mentor Graphics design kit.
+% 	      \end{itemize*}      	      
+% 	\item
+% 	      \headerrow
+% 	      {\textbf{\large Electro-oculogram (EOG) signal processing and analysis}}
+% 	      {\textbf{Nanjing, China}}
+% 	      \headerrow
+% 	       {\emph{ Analog circuit design with Tina, and PCB design with AD, advised by Prof. Litao Sun, SEU}} 
+% 	       {\emph{Apr.-- Jun. 2020}}
+% 	      \begin{itemize*}
+% 	      	\item Achieved the module of EOG signal collecting, 300x signal amplifying and 50Hz low pass filtering with chip INA333, OPA2333 and right leg drive circuit. Designed the Printed Circuit Board from wiring, layout designing to testing using Altium Designer (AD).
+% 	      	\item Tested and analyzed the performance of the signal processing using Matlab based on SEED database. Completed the accurate signal amplification, and retained the character of the analog EOG with 1.76\% high-pass filter cut-off frequency error, providing high quality processed EOG signal to subsequent HCI system.
+% 	      \end{itemize*}
+	      	      
+% 	\item
+% 	      \headerrow
+% 	      {\textbf{\large Gluttonous Snake game design based on FGPA}}
+% 	      {\textbf{Nanjing, China}}
+% 	      \headerrow
+% 	      {\emph{ FPGA module application and Verilog programming, advised by Prof. Ning Zhao, SEU}}
+% 	      {\emph{Aug.-- Sept. 2018}}
+% 	      \begin{itemize*}
+% 	      	\item Designed the finite state machine using Verilog to synthesize the netlist to control the game process, including initializing and reset, snake movement control with keys pressing, and state display through LED.
+% 	      	\item Visualized the game interface through VGA signal, including the snake movement tracking, random food generation, and VGA scanning control.
+% 	      \end{itemize*}
+
+%         \item
+%             \headerrow
+% 	      {\textbf{\large Automatic Tracking Car with Remote Control Function based on Visual Recognition}}
+% 	      {\textbf{Nanjing, China}}
+% 	      \headerrow
+% 	      {\emph{ Binocular ranging with OpenCV framework, communication using Keil, advised by Prof.  Xinhua Tang, SEU}}
+% 	      {\emph{Mar.-- May 2019}}
+% 	      \begin{itemize*}
+% 	      	\item Built the automatic tracking car with control based on visual recognition algorithm using Python. Implemented the communication between Jeston TX2 and stm32 using Keil. 
+%                 \item Designed an algorithm based on PID to control distance and angle between the car and marker with 90\% accuracy.
+% 	      	\item Implemented the function of binocular ranging with stereovision algorithms in OpenCV framework.
+% 	      \end{itemize*}	
+	      	      
+% \end{itemize}
+% %--------------Projects Experience----------------%
+%--------------Design Projects----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Design Projects}
+\renewcommand\labelitemi{}
+\renewcommand\labelitemii{$\bullet$}
+\begin{itemize}[leftmargin=1em]
+    \parskip=0.1em
+    \item
+        \headerrow
+        {\textbf{\large Programmable Accelerator Architecture: GPU Kernel and Scheduler Optimization}}{}
+        \headerrow
+        {\emph{C++, CUDA}}{}
+        \begin{itemize*}
+            \item Developed CUDA kernels for CNNs (convolution, GEMM) and optimized image filtering/pooling pipelines.
+            \item Designed cooperative thread array (CTA)-level schedulers that improved instruction per cycle (IPC) and reduced L1/L2 cache miss rates.
+            \item Built a many-thread-aware prefetcher and developed a CUDA micro-benchmark for validation.
+        \end{itemize*}
+    \item
+        \headerrow
+        {\textbf{\large Computer Architecture: 32-bit MIPS Processor Design}}{}
+        \headerrow
+        {\emph{Verilog, Design Compiler, Mentor Graphics}}{}
+        \begin{itemize*}
+            \item Architected and synthesized a 5-stage pipelined MIPS processor in Verilog with registers and arithmetic-logic unit, implementing data read/write between instruction memory and data memory based on R-, I-, and J-type instructions.
+            \item Optimized the 0.13\,\textmu m ALU performance based on a carry-lookahead adder, improving area and power by $\sim$30\% using output selection and logic reconfiguration.
+        \end{itemize*}
+    \item
+        \headerrow
+        {\textbf{\large Artificial Intelligence: Memory-Augmented Transformer for Sequence Modeling}}{}
+        \headerrow
+        {\emph{Pytorch, CUDA}}{}
+        \begin{itemize*}
+            \item Developed autoregressive image generation on MNIST and language modeling on WikiText with memory optimization scheme, and explored memory states processing and integration in memory-augmented Transformers.
+            \item Enhanced capabilities in processing long sequences with improved GPU memory and computational efficiency.
+        \end{itemize*}
+\end{itemize}
+%--------------Design Projects end----------------%
+
+%--------------Teaching and Laboratory Experience----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Teaching and Laboratory Experience}
+
+\renewcommand\labelitemi{}
+\renewcommand\labelitemii{$\bullet$}
+\begin{itemize}[leftmargin=1em]
+	\parskip=0.1em
+    \item
+	      \headerrow
+	      {\textbf{\large Graduate Teaching Assistant }}
+	      {\textbf{West Lafayette, IN}}
+	      \headerrow
+            {\emph{ ECE20008 Electrical Engineering Fundamentals Laboratory, Purdue University}}
+	      {\emph{Jan -- May 2026}}
+	      \begin{itemize*}
+	      	\item Performed teaching assistant duties including lecturing, holding office hours, grading homework and exams.    
+	      	\item Mentored 50+ students and supervised 10+ mixed-signal IC labs.
+	      \end{itemize*}
+	\item
+	      \headerrow
+	      {\textbf{\large Graduate Teaching Assistant }}
+	      {\textbf{West Lafayette, IN}}
+	      \headerrow
+            {\emph{ ECE305 Semiconductor Devices, Purdue University}}
+	      {\emph{Aug -- Dec 2024}}
+	      \begin{itemize*}
+	      	\item Performed teaching assistant duties including preparing quizzes, holding office hours, grading homework and exams.    
+	      	\item Mentored 70+ students and guided problem-solving sessions on fundamental semiconductor device concepts.
+	      \end{itemize*}
+    \item
+	      \headerrow
+	      {\textbf{\large Graduate Teaching Assistant }}
+	      {\textbf{Durham, NC}}
+	      \headerrow
+            {\emph{ ECE539 CMOS VLSI Design Methodologies, Duke University}}
+	      {\emph{Aug -- Dec 2022}}
+	      \begin{itemize*}
+	      	\item Performed teaching assistant duties including lecturing, updating project tutorials, holding lab sessions and office hours, grading homework and exams.    
+	      	\item Mentored 20+ students and supervised 5 practical labs.
+            \item Consolidated customized IC design hands-on skills in Virtuoso and learned new topics in VLSI chip design.
+	      \end{itemize*}
+    \item
+	      \headerrow
+	      {\textbf{\large Graduate Teaching Assistant }}
+	      {\textbf{Durham, NC}}
+	      \headerrow
+            {\emph{ ECE550 Fundamental of Computer System and Engineering, Duke University}}
+	      {\emph{Jun -- Aug 2022}}
+	      \begin{itemize*}
+	      	\item Performed teaching assistant duties including lecturing, updating project tutorials, and holding lab sessions.
+	      	\item Mentored 100+ students and supervised 3 practical labs.
+            \item Consolidated computer system concepts and logic synthesis in Verilog.
+	      \end{itemize*}
+    \item
+	      \headerrow
+	      {\textbf{\large Laboratory Administrator}}
+	      {\textbf{Nanjing, China}}
+	      \headerrow
+            {\emph{ School of Electronic Engineering, Southeast University}}
+	      {\emph{Sept 2017 -- Jun 2018}}
+	      \begin{itemize*}
+	      	\item Facilitated a positive student environment and maintained equipment in the laboratory.
+	      	\item Carried out training in electro-welding practice.
+	      \end{itemize*}
+    \item
+	      \headerrow
+	      {\textbf{\large Teacher}}
+	      {\textbf{Yunnan, China}}
+	      \headerrow
+            {\emph{ Science and Technology Summer Camp, Southeast University}}
+	      {\emph{Jul 2017}}
+	      \begin{itemize*}
+	      	\item Instructed middle school students in the rural area to acquire modern scientific knowledge through lectures and practical activities.
+	      	\item Won the AkzoNobel China Student Sustainability Bronze Award in the local education news.
+	      \end{itemize*}
+\end{itemize}
+%--------------Teaching and Laboratory Experience end----------------%
+%--------------Publications----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Publications}
+\hyphenpenalty=1000
+\begin{enumerate}[leftmargin=2em, noitemsep, label={[\arabic*]}]
+	   \item \textbf{\underline{S. Du}}, L. Z., A.-M. Parvathy, F. Xie, T. Wei, A. Raghunathan, and H. Li, "3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning," \textit{\textbf{ACM/IEEE Design Automation Conference (DAC)}, 2025}
+
+       \item \textbf{\underline{S. Du}}, M. Ibrahim, Z. Wan, L. Zheng, B. Zhao, Z. Fan, C.-K. Liu, T. Krishna, A. Raychowdhury, and H. Li, "Cross-Layer Design of Vector-Symbolic Computing: Bridging Cognition and Brain-Inspired Hardware Acceleration," \textit{\textbf{ACM Transactions on Embedded Computing Systems}, 2026}
+       
+       \item S. Liu, R. M. Radway, X. Wang, F. Moro, J.-F. Nodin, K. Jana, L. Yan, \textbf{\underline{S. Du}}, L. R. Upton, W.-C. Chen, J. Kang, J. Chen, H. Li, F. Andrieu, E. Vianello, P. Raina, S. Mitra, and H.-S. P. Wong, "Monolithic 3-D Integration of Diverse Memories: Resistive Switching (RRAM) and Gain Cell (GC) Memory Integrated on Si CMOS," \textit{\textbf{IEEE Transactions on Electron Devices}, 2025}
+
+       \item L. Zheng, A. M. Bavani, \textbf{\underline{S. Du}}, T.-Y. Hsin, M. Chen, W.-S. Khwa, A. Lele, H. Chuang, Y.-D. Chih, M.-F. Chang, H. Li, "CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation," \textit{\textbf{IEEE Asian Solid-State Circuits Conference (ASSCC)}, 2025}
+       
+       \item L. Zheng, A. M. Bavani, M. Chen, \textbf{\underline{S. Du}}, T.-Y. Hsin, W.-S. Khwa, P.-S. Wu, A. Lele, B. Zhang, B. Crafton, H. Chuang, Y.-D. Chih, M.-F. Chang, and H. Li, “PROTEUS: A 40nm 6.4-TOPS/W Programmable General-Purpose Digital-CIM Accelerator with Embedded-RRAM and Hierarchical-DCIM-ISA for Versatile Edge-AI,” \textit{\textbf{IEEE Journal of Solid-State Circuits (JSSC)}, 2026}
+
+       \item L. Zheng, Z. Wang, \textbf{\underline{S. Du}},  M. Chen,  A. M. Bavani, and H. Li, “Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning,” \textit{\textbf{International Symposium on Quality Electronic Design (ISQED)}, 2026}
+       
+       \item L. Zheng, C. Niu, \textbf{\underline{S. Du}}, S. Lee, A. M. Bavani, Z. Lin, P. D. Ye, H. Chuang, and H. Li, “Device-Circuit Co-Design of Reconfigurable 2T Oxide Semiconductor Based Non-Volatile Gain-Cell Memory and Floating-Point 3D LLM Accelerator,” \textit{will be submitted to VLSI 2026.}
+       
+       \item C. Niu, L. Long, L. Zheng, \textbf{\underline{S. Du}}, J.-Y. Lin, Z. Lin, C. Liu, H. Wang, H. Li, and P.-D. Ye, “200mm Wafer-Scale Monolithic 3D Integration of ALD Oxide Semiconductors for Multi-Tier 3D Integrated Circuits,” \textit{\textbf{Nature Nanotechnology} (under review).}
+       
+
+       \item S. Liu, R. Radway, X. Wang, F. Moro, J.-F. Nodin, K. Jana, \textbf{\underline{S. Du}}, L. Upton, W.-C. Chen, J. Chen, H. Li, F. Andrieu, E. Vianello, P. Raina, S. Mitra, and H.-S. P. Wong, "Edge Continual Training and Inference with RRAM-Gain Cell Memory Integrated on Si CMOS" \textit{\textbf{IEEE International Electron Devices Meeting (IEDM)}, 2024}
+       
+      % \item S.Du, Analysis of the Influence of Digital Technology on Film Art[J].Research on Digital Media, 2019, 36(2): 46-48. \href{https://scholar.google.com/scholar?q=%E6%95%B0%E5%AD%97%E6%8A%80%E6%9C%AF%E5%AF%B9%E7%94%B5%E5%BD%B1%E8%89%BA%E6%9C%AF%E7%9A%84%E5%BD%B1%E5%93%8D%E5%88%86%E6%9E%90+%E6%9D%9C%E8%88%92%E5%A9%B7&hl=zh-CN&as_sdt=0&as_vis=1&oi=scholart}{link}
+
+
+\end{enumerate}
+%--------------Publications end----------------%
+% %--------------Patents----------------%
+% \hrule
+% \vspace{-1em}
+% \subsection*{\Large Patents}
+% \hyphenpenalty=1000
+% \begin{itemize}[leftmargin=1em, noitemsep]
+
+%         \item
+        
+%         \begin{itemize*}
+% 	\item Wastewater treatment device based on three-dimensional zinc oxide and use method thereof. CN Patent for Invention  CN110127914A, filed May 21, 2019, and issued August 16, 2019.
+% 	\item Anti-scald electric soldering pen for circuit simulation. CN Patent for Utility Model CN211387273U, filed October 21, 2019, and issued September 1, 2020.
+% 	\item Display fixing and limiting device convenient for position adjustment for the electronic experiment. CN Patent for Utility Model CN210567200U, filed October 21, 2019, and issued May 19, 2020.
+% 	\end{itemize*}
+       
+% \end{itemize}
+% %--------------Patents end----------------%
+%--------------Honors and Awards----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Honors and Awards}
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=0em, noitemsep]
+    \item
+        \begin{itemize*}
+        \item Design Automation Conference (DAC) Young Fellow
+            \hfill 2024
+        \item Alumni Scholarship, Southeast University, China
+            \hfill 2020
+        \item Outstanding Student Award (Top 7.5\%), Southeast University, China 
+            \hfill 2017
+        \item Outstanding Student Award (Technology Innovation and Entrepreneurship), Southeast University, China
+            \hfill 2017
+        \end{itemize*}
+\end{itemize}
+%--------------Honors and Awards end----------------%
+%--------------Professional Service----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Professional Service}
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=0em, noitemsep]
+    \item
+    \begin{itemize*}
+        \item Reviewer for ICCAD 2024
+        \item Reviewer for IEEE Access
+    \end{itemize*}
+        
+\end{itemize}
+%--------------Professional Service end----------------%
+%--------------Research Presentations----------------%
+\hrule
+\vspace{-1em}
+\subsection*{\Large Research Presentations}
+\hyphenpenalty=1000
+\begin{itemize}[leftmargin=0em, noitemsep]
+        \item
+        
+        \begin{itemize*}
+        
+        \item “Transformer accelerators: trends, design considerations, and future explorations” Invited talk at TSMC Ltd., Nov. 2023.
+        \item “Memory-Centric 3D NanoSystems Lead the Way to Energy-Efficient Artificial Intelligence (AI) Hardware” Purdue Student Research Poster Presentation to the Semiconductor Degree Leadership Board, Oct. 2023.
+        % \footnote{* Equal contribution}
+        \item “Cross-Layer Design of Vector-Symbolic Computing: Bridging Cognition and Brain-Inspired Hardware Acceleration” Purdue ECE Graduate Symposium Research Poster Presentation, Oct. 2024.
+        \item “3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning” Conference talk at DAC, June. 2025.
+        \item “Heterogeneous Chiplet-based LLM Acceleration” Poster presentation at Purdue ECE Graduate Symposium, and Purdue Workshop on CHIPS \& AI, Oct. 2025.
+        \item “Future of Memory-Centric AI Hardware” Invited talk at UPWARDS technical meeting, Oct. 2025.
+        
+        \end{itemize*}
+        
+\end{itemize}
+%--------------Research Presentations end----------------%
+% %--------------Invited Talks----------------%
+% \hrule
+% \vspace{-1em}
+% \subsection*{\Large Invited Talks}
+% \hyphenpenalty=1000
+% \begin{itemize}[leftmargin=1em, noitemsep]
+%         \item
+        
+%         \begin{itemize*}
+%         \item H. Li, and S. Du, “Transformer accelerators: trends, design considerations, and future explorations,” Invited Talk at TSMC Ltd., Nov. 2023.
+        
+%         \end{itemize*}
+        
+% \end{itemize}
+% %--------------Invited Talks end----------------%
+% %--------------Poster Presentation----------------%
+% \hrule
+% \vspace{-1em}
+% \subsection*{\Large Poster Presentation}
+% \hyphenpenalty=1000
+% \begin{itemize}[leftmargin=1em, noitemsep]
+%         \item
+        
+%         \begin{itemize*}
+%         \item S. Du, L. Zheng, and H. Li, “Memory-Centric 3D NanoSystems Lead the Way to Energy-Efficient Artificial Intelligence (AI) Hardware,” Purdue Student Research Poster Presentation to the Semiconductor Degree Leadership Board, Oct. 2023.
+%         % \footnote{* Equal contribution}
+%         \item S. Du, M. Ibrahim, Z. Wan, et al., “Cross-Layer Design of Vector-Symbolic Computing: Bridging Cognition and Brain-Inspired Hardware Acceleration,” Purdue ECE Graduate Symposium Research Poster Presentation, Oct. 2024.
+%         \item S. Du, L. Zheng, A. Parvathy, et al., “3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning,” Purdue ECE Graduate Symposium Research Poster Presentation, Oct. 2025.
+%         \end{itemize*}
+        
+% \end{itemize}
+% %--------------Poster Presentation end----------------%
+
+\end{document}
