@@ -1,9 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"DAC":
+  url: https://www.dac.com/
+  color: "#005eb8"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TECS":
+  url: https://dl.acm.org/journal/tecs
+  color: "#4b7f52"
 
-"Vision":
-  color: "#009f36"
+"TED":
+  url: https://ieee-edl.org/publications/transactions-on-electron-devices/
+  color: "#7f4b52"
+
+"ASSCC":
+  url: https://asscc.org/
+  color: "#7f5f00"
+
+"JSSC":
+  url: https://sscs.ieee.org/publications/ieee-journal-of-solid-state-circuits-jssc/
+  color: "#6b4ba3"
+
+"ISQED":
+  url: https://www.isqed.org/
+  color: "#006b6b"
+
+"IEDM":
+  url: https://ieee-iedm.org/
+  color: "#8a3b12"
+
+"VLSI":
+  url: https://www.vlsisymposium.org/
+  color: "#555555"
+
+"Nat. Nanotechnol.":
+  url: https://www.nature.com/nnano/
+  color: "#1f6f43"

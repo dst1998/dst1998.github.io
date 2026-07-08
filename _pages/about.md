@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate in Electrical and Computer Engineering at <a href="https://www.purdue.edu/">Purdue University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>NanoX Lab</p>
+    <p>Purdue University</p>
+    <p>West Lafayette, IN 47906</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate in Electrical and Computer Engineering at Purdue University, advised by Prof. Haitong Li in NanoX Lab. My research focuses on high-performance, low-power AI systems and hardware-software co-design, with an emphasis on 3D-IC architectures, compute-in-memory chips, heterogeneous chiplets, and memory-centric accelerators for edge AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I work across device, circuit, architecture, and system levels to model and optimize AI/ML workloads. Recent projects include 3D-CIMlet for heterogeneous in-memory edge LLM acceleration, floating-point compute-in-memory engines with RRAM-eDRAM fusion, reconfigurable oxide-semiconductor memory for 3D LLM accelerators, and cross-layer frameworks for vector-symbolic computing.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before Purdue, I earned my M.S. in Electrical and Computer Engineering from Duke University and my B.E. in Electronic Science and Technology from Southeast University. I have also conducted research at Duke University's Center of Computational Evolutionary Intelligence, Arizona State University's Efficient, Secure and Intelligent Computing Lab, and Southeast University's SEU-FEI Nano-Pico Center.

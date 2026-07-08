@@ -1,221 +1,235 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shuting Du",
+    "label": "PhD Candidate in Electrical and Computer Engineering",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shutingdu@purdue.edu",
+    "phone": "+1 (919) 937-1932",
+    "url": "https://shutingdu.github.io",
+    "summary": "PhD candidate specializing in high-performance, low-power AI systems and hardware-software co-design. Proven expertise in developing 3D-IC architectures, compute-in-memory chips, and heterogeneous SoC accelerators. Skilled in modeling, designing, and optimizing AI/ML workloads across device, circuit, architecture, and system levels.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "postalCode": "47906",
+      "city": "West Lafayette",
       "countryCode": "US",
-      "region": "California"
+      "region": "Indiana"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "shuting-du",
+        "url": "https://www.linkedin.com/in/shuting-du/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "HPHuVUUAAAAJ",
+        "url": "https://scholar.google.com/citations?hl=en&user=HPHuVUUAAAAJ"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "NanoX Lab, Purdue University",
+      "position": "Research Assistant",
+      "location": "West Lafayette, IN",
+      "startDate": "2023-08-01",
+      "summary": "Advised by Prof. Haitong Li.",
+      "highlights": [
+        "Designed 3D-CIMlet, a heterogeneous chiplet framework for in-memory acceleration of edge LLM inference and continual learning, with thermal-aware modeling and multi-die design exploration for 2.5D/3D systems.",
+        "Developed memory-reliability-aware chiplet mapping strategies for heterogeneous integration of RRAM, eDRAM, and hybrid dies across mixed technology nodes.",
+        "Developed floating-point compute-in-memory engines with RRAM-eDRAM fusion macros, 3D-MAC dataflow, pipelined accumulation, and power-aware synthesis.",
+        "Built cross-layer frameworks for vector-symbolic computing and system-technology co-optimization across DNN, LLM, VSA, and optimization workloads."
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "Center of Computational Evolutionary Intelligence, Duke University",
+      "position": "Research Assistant",
+      "location": "Durham, NC",
+      "startDate": "2022-01-01",
+      "endDate": "2022-10-01",
+      "summary": "Advised by Prof. Yiran Chen and Prof. Helen (Hai) Li.",
+      "highlights": [
+        "Designed an 8T SRAM-CIM macro supporting multi-bit MAC operations for edge AI and up to 3-bit sensing read-out circuits.",
+        "Implemented 8T computing cells and multi-bit current-domain read-out circuits with a customized flash ADC to improve area efficiency.",
+        "Developed an auto error correction scheme with digital near-memory processing."
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Efficient, Secure and Intelligent Computing Lab, Arizona State University",
+      "position": "Research Assistant",
+      "location": "Tempe, AZ",
+      "startDate": "2022-06-01",
+      "endDate": "2022-08-01",
+      "summary": "Advised by Prof. Deliang Fan.",
+      "highlights": [
+        "Developed the PIMA-SIM processing-in-memory evaluation tool on top of NVSIM to extract delay, energy, and area data for non-volatile memory and SRAM PIM technologies.",
+        "Improved PIM-level configuration flexibility with customized row activation schemes and sub-array, mat, and bank-level components.",
+        "Evaluated high-density 28 nm STT-assisted SOT-MRAM, showing 95.4% lower energy, 1.6x speedup, and 65% lower area overhead compared with SRAM."
+      ]
     },
     {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "SEU-FEI Nano-Pico Center, Southeast University",
+      "position": "Undergraduate Student",
+      "location": "Nanjing, China",
+      "startDate": "2020-04-01",
+      "endDate": "2020-06-01",
+      "summary": "Advised by Prof. Litao Sun.",
+      "highlights": [
+        "Built EOG signal collection, 300x amplification, and 50 Hz low-pass filtering modules using INA333, OPA2333, and right-leg-drive circuitry.",
+        "Designed and tested the PCB in Altium Designer and analyzed signal-processing performance in Matlab with the SEED database."
+      ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Purdue University",
+      "location": "West Lafayette, IN",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2023-08-01"
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Duke University",
+      "location": "Durham, NC",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2021-08-01",
+      "endDate": "2023-05-01"
+    },
+    {
+      "institution": "Southeast University",
+      "location": "Nanjing, China",
+      "area": "Electronic Science and Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2016-09-01",
+      "endDate": "2020-06-01"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Design Automation Conference Young Fellow",
+      "date": "2024-01-01",
+      "awarder": "Design Automation Conference"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "title": "Alumni Scholarship",
+      "date": "2020-01-01",
+      "awarder": "Southeast University, China"
+    },
+    {
+      "title": "Outstanding Student Award (Top 7.5%)",
+      "date": "2017-01-01",
+      "awarder": "Southeast University, China"
+    },
+    {
+      "title": "Outstanding Student Award (Technology Innovation and Entrepreneurship)",
+      "date": "2017-01-01",
+      "awarder": "Southeast University, China"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning",
+      "publisher": "ACM/IEEE Design Automation Conference (DAC)",
+      "releaseDate": "2025-01-01"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Cross-Layer Design of Vector-Symbolic Computing: Bridging Cognition and Brain-Inspired Hardware Acceleration",
+      "publisher": "ACM Transactions on Embedded Computing Systems",
+      "releaseDate": "2026-01-01"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Monolithic 3-D Integration of Diverse Memories: Resistive Switching (RRAM) and Gain Cell (GC) Memory Integrated on Si CMOS",
+      "publisher": "IEEE Transactions on Electron Devices",
+      "releaseDate": "2025-01-01"
+    },
+    {
+      "name": "CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation",
+      "publisher": "IEEE Asian Solid-State Circuits Conference (ASSCC)",
+      "releaseDate": "2025-01-01"
+    },
+    {
+      "name": "PROTEUS: A 40nm 6.4-TOPS/W Programmable General-Purpose Digital-CIM Accelerator with Embedded-RRAM and Hierarchical-DCIM-ISA for Versatile Edge-AI",
+      "publisher": "IEEE Journal of Solid-State Circuits",
+      "releaseDate": "2026-01-01"
+    },
+    {
+      "name": "Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning",
+      "publisher": "International Symposium on Quality Electronic Design (ISQED)",
+      "releaseDate": "2026-01-01"
+    },
+    {
+      "name": "Device-Circuit Co-Design of Reconfigurable 2T Oxide Semiconductor Based Non-Volatile Gain-Cell Memory and Floating-Point 3D LLM Accelerator",
+      "publisher": "To be submitted to VLSI",
+      "releaseDate": "2026-01-01"
+    },
+    {
+      "name": "200mm Wafer-Scale Monolithic 3D Integration of ALD Oxide Semiconductors for Multi-Tier 3D Integrated Circuits",
+      "publisher": "Nature Nanotechnology (under review)",
+      "releaseDate": "2026-01-01"
+    },
+    {
+      "name": "Edge Continual Training and Inference with RRAM-Gain Cell Memory Integrated on Si CMOS",
+      "publisher": "IEEE International Electron Devices Meeting (IEDM)",
+      "releaseDate": "2024-01-01"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming and Frameworks",
+      "keywords": ["Python", "C++", "C", "Verilog", "SystemVerilog", "Matlab", "CUDA", "PyTorch"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Simulators and Modeling",
+      "keywords": ["Gem5", "GPGPU-Sim", "Accel-Sim", "SCALE-Sim", "Timeloop", "DRAMSim", "Ramulator", "NVMain"]
+    },
+    {
+      "name": "EDA and IC Design Flow",
+      "keywords": ["Cadence Virtuoso", "Synopsys Design Compiler", "HSPICE", "Mentor Graphics", "Multisim"]
+    },
+    {
+      "name": "Hardware and Architecture",
+      "keywords": ["RTL design", "Microarchitecture", "Low-power design", "PPA optimization", "3D-IC/chiplet architecture", "On-chip networks", "Memory systems"]
     }
   ],
+  "languages": [],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Cross-layer algorithm-hardware co-design for AI acceleration",
+        "Energy-efficient and scalable 3D heterogeneous System-on-Chip architectures",
+        "Memory-centric hardware accelerators based on emerging technologies"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Programmable Accelerator Architecture",
+      "summary": "GPU kernel and scheduler optimization with C++ and CUDA.",
+      "highlights": [
+        "Developed CUDA kernels for CNN convolution and GEMM and optimized image filtering and pooling pipelines.",
+        "Designed CTA-level schedulers that improved IPC and reduced L1/L2 cache miss rates.",
+        "Built a many-thread-aware prefetcher and CUDA micro-benchmark for validation."
+      ]
+    },
+    {
+      "name": "32-bit MIPS Processor Design",
+      "summary": "Computer architecture project using Verilog, Design Compiler, and Mentor Graphics.",
+      "highlights": [
+        "Architected and synthesized a 5-stage pipelined MIPS processor with registers and an arithmetic-logic unit.",
+        "Optimized 0.13 um ALU performance using a carry-lookahead adder, output selection, and logic reconfiguration."
+      ]
+    },
+    {
+      "name": "Memory-Augmented Transformer for Sequence Modeling",
+      "summary": "AI project using PyTorch and CUDA.",
+      "highlights": [
+        "Developed autoregressive image generation on MNIST and language modeling on WikiText with memory optimization.",
+        "Explored memory-state processing and integration in memory-augmented Transformers for longer sequence processing."
+      ]
     }
   ]
 }

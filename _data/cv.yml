@@ -1,189 +1,405 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Shuting Du
+  label: PhD Candidate, Electrical and Computer Engineering
+  email: shutingdu@purdue.edu
+  phone: "+1 (919) 937-1932"
+  location: West Lafayette, IN 47906
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: PhD candidate specializing in high-performance, low-power AI systems and hardware-software co-design. Proven expertise in 3D-IC architectures, compute-in-memory chips, and heterogeneous SoC accelerators. Skilled in modeling, designing, and optimizing AI/ML workloads across device, circuit, architecture, and system levels.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: shuting-du
+    - network: Google Scholar
+      username: HPHuVUUAAAAJ
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    city: West Lafayette
+    region: Indiana
+    postalCode: "47906"
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Purdue University
+        location: West Lafayette, IN
+        area: Electrical and Computer Engineering
+        studyType: Doctor of Philosophy
+        start_date: 2023-08
+        end_date: present
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Duke University
+        location: Durham, NC
+        area: Electrical and Computer Engineering
+        studyType: Master of Science
+        start_date: 2021-08
+        end_date: 2023-05
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - institution: Southeast University
+        location: Nanjing, China
+        area: Electronic Science and Technology
+        studyType: Bachelor of Engineering
+        start_date: 2016-09
+        end_date: 2020-06
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Research Interests:
+      - name: AI hardware systems
+        icon: fa-solid fa-microchip
+        keywords: "Cross-layer algorithm-hardware co-design for AI acceleration; energy-efficient and scalable 3D heterogeneous System-on-Chip architectures; memory-centric hardware accelerators based on emerging technologies"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming and Frameworks
+        icon: fa-solid fa-code
+        keywords: "Python, C++, C, Verilog, SystemVerilog, Matlab, CUDA, PyTorch"
+      - name: Simulators and Modeling
+        icon: fa-solid fa-diagram-project
+        keywords: "Gem5, GPGPU-Sim, Accel-Sim, SCALE-Sim, Timeloop, DRAMSim, Ramulator, NVMain"
+      - name: EDA and IC Design Flow
+        icon: fa-solid fa-microchip
+        keywords: "Cadence Virtuoso, Synopsys Design Compiler, HSPICE, Mentor Graphics, Multisim"
+      - name: Hardware Prototyping
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "FPGA design with Quartus and Vivado; PCB design with Altium Designer"
+      - name: Hardware and Architecture
+        icon: fa-solid fa-memory
+        keywords: "RTL design, microarchitecture, low-power design, PPA optimization, 3D-IC/chiplet architecture, on-chip networks, CMOS and emerging-technology memory systems"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Research Experience:
+      - company: NanoX Lab, Purdue University
+        position: Research Assistant, advised by Prof. Haitong Li
+        location: West Lafayette, IN
+        start_date: 2023-08
+        end_date: present
+        summary: Heterogeneous Chiplet Co-Design for In-Memory Edge LLM Acceleration
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Designed 3D-CIMlet, a heterogeneous chiplet framework for in-memory acceleration of edge LLM inference and continual learning, with thermal-aware modeling and multi-die design exploration for 2.5D/3D systems.
+          - Developed memory-reliability-aware chiplet mapping strategies for heterogeneous integration of RRAM, eDRAM, and hybrid dies across mixed technology nodes.
+          - Achieved 9.3x/12x energy efficiency improvement and 90.2%/92.5% EDP reduction in 2.5D/3D designs for scalable edge LLM deployment.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: NanoX Lab, Purdue University
+        position: Research Assistant, advised by Prof. Haitong Li
+        location: West Lafayette, IN
+        start_date: 2023-08
+        end_date: present
+        summary: Floating-Point Compute-in-Memory Engine with RRAM-eDRAM Fusion
+        highlights:
+          - Developed a floating-point compute-in-memory engine with RRAM-eDRAM fusion macros and multiply-accumulate-compute dataflow for high-speed, energy-efficient edge AI acceleration.
+          - Implemented a pipelined accumulator and power-aware synthesis with a multi-Vt library, decoupled gain-cell eDRAM read/write ports, and doubled effective bandwidth through interleaved macro access.
+          - Achieved 38.5 TFLOPS/W energy efficiency at 600 MHz, 1.75% Tiny-ViT accuracy degradation on CIFAR-10, and up to 4.84x/8.48x figure-of-merit gains over prior SRAM/RRAM baselines.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: NanoX Lab, Purdue University
+        position: Research Assistant, advised by Prof. Haitong Li
+        location: West Lafayette, IN
+        start_date: 2023-08
+        end_date: present
+        summary: Device-Circuit Co-Design of Reconfigurable Memory for a 3D LLM Accelerator
+        highlights:
+          - Developed a 2T oxide-semiconductor non-volatile gain-cell memory enabling in-memory reconfiguration between static and dynamic operations for LLM inference and continual learning.
+          - Implemented a 3D sandwich integration scheme combining oxide-semiconductor logic and memory layers on CMOS, with reconfigurable FP/INT compute modes and 3D inter-tier dataflow optimization.
+          - Achieved 32.9 TOPS/W energy efficiency and 102.4 TOPS/mm2 compute density, with 2.3x/3.2x gains over planar CMOS and DRAM baselines.
+
+      - company: NanoX Lab, Purdue University
+        position: Research Assistant, advised by Prof. Haitong Li
+        location: West Lafayette, IN
+        start_date: 2023-08
+        end_date: present
+        summary: Cross-Layer Co-Design for Vector-Symbolic Hardware Acceleration
+        highlights:
+          - Built a cross-layer design framework for vector-symbolic computing that unifies algorithm, architecture, and hardware perspectives for efficient cognitive computing acceleration.
+          - Proposed heterogeneous memory architectures achieving up to 86% lower latency and 2.6x energy efficiency over homogeneous designs.
+          - Identified a unified VSA hardware-algorithm co-design framework and memory-centric VSA design template for scalable brain-inspired AI systems.
+
+      - company: NanoX Lab, Purdue University
+        position: Research Assistant, advised by Prof. Haitong Li
+        location: West Lafayette, IN
+        start_date: 2023-08
+        end_date: present
+        summary: System-Technology Co-Optimization for Representation and Memory Heterogeneity
+        highlights:
+          - Designed an STCO framework integrating algorithmic representations with heterogeneous memory for edge systems across DNNs, LLMs, VSA, and optimization solvers.
+          - Developed memory-centric model partitioning and mapping on heterogeneous chiplets and characterized memory units that combine compute, storage, and adaptive processing.
+          - Unified representation-driven workloads under a cross-layer modeling framework for scalable, energy-efficient edge intelligence accelerators.
+
+      - company: Center of Computational Evolutionary Intelligence, Duke University
+        position: Research Assistant, advised by Prof. Yiran Chen and Prof. Helen (Hai) Li
+        location: Durham, NC
+        start_date: 2022-01
+        end_date: 2022-10
+        summary: SRAM Computing-in-Memory Macro Design
+        highlights:
+          - Designed an 8T SRAM-CIM macro supporting multi-bit MAC operations for edge AI and up to 3-bit sensing read-out circuits.
+          - Implemented 8T computing cells and multi-bit current-domain read-out circuits with a customized flash ADC to improve area efficiency.
+          - Developed an auto error correction scheme with digital near-memory processing.
+
+      - company: Efficient, Secure and Intelligent Computing Lab, Arizona State University
+        position: Research Assistant, advised by Prof. Deliang Fan
+        location: Tempe, AZ
+        start_date: 2022-06
+        end_date: 2022-08
+        summary: Processing-in-Memory Evaluation Tool Optimization
+        highlights:
+          - Developed the PIMA-SIM processing-in-memory evaluation tool on top of NVSIM to extract delay, energy, and area data for non-volatile memory and SRAM PIM technologies.
+          - Improved PIM-level configuration flexibility by supporting customized row activation schemes and sub-array, mat, and bank-level components.
+          - Evaluated high-density 28 nm STT-assisted SOT-MRAM, showing 95.4% lower energy, 1.6x speedup, and 65% lower area overhead compared with SRAM.
+
+      - company: SEU-FEI Nano-Pico Center, Southeast University
+        position: Undergraduate Student, advised by Prof. Litao Sun
+        location: Nanjing, China
+        start_date: 2020-04
+        end_date: 2020-06
+        summary: Electro-oculogram Signal Processing and Analysis
+        highlights:
+          - Built EOG signal collection, 300x amplification, and 50 Hz low-pass filtering modules using INA333, OPA2333, and right-leg-drive circuitry.
+          - Designed and tested the PCB in Altium Designer and analyzed signal-processing performance in Matlab with the SEED database.
+          - Retained analog EOG characteristics with 1.76% high-pass filter cutoff frequency error for downstream HCI systems.
+
+    Design Projects:
+      - name: Programmable Accelerator Architecture
+        summary: GPU kernel and scheduler optimization.
+        highlights:
+          - Developed CUDA kernels for CNN convolution and GEMM and optimized image filtering and pooling pipelines.
+          - Designed CTA-level schedulers that improved IPC and reduced L1/L2 cache miss rates.
+          - Built a many-thread-aware prefetcher and CUDA micro-benchmark for validation.
+
+      - name: 32-bit MIPS Processor Design
+        summary: Computer architecture project using Verilog, Design Compiler, and Mentor Graphics.
+        highlights:
+          - Architected and synthesized a 5-stage pipelined MIPS processor with registers and an arithmetic-logic unit.
+          - Optimized 0.13 um ALU performance using a carry-lookahead adder, output selection, and logic reconfiguration, improving area and power by approximately 30%.
+
+      - name: Memory-Augmented Transformer for Sequence Modeling
+        summary: AI project using PyTorch and CUDA.
+        highlights:
+          - Developed autoregressive image generation on MNIST and language modeling on WikiText with memory optimization.
+          - Explored memory-state processing and integration in memory-augmented Transformers for longer sequence processing.
+
+    Teaching and Laboratory Experience:
+      - company: Purdue University
+        position: Graduate Teaching Assistant, ECE20008 Electrical Engineering Fundamentals Laboratory
+        location: West Lafayette, IN
+        start_date: 2026-01
+        end_date: 2026-05
+        highlights:
+          - Lectured, held office hours, graded homework and exams, mentored 50+ students, and supervised 10+ mixed-signal IC labs.
+
+      - company: Purdue University
+        position: Graduate Teaching Assistant, ECE305 Semiconductor Devices
+        location: West Lafayette, IN
+        start_date: 2024-08
+        end_date: 2024-12
+        highlights:
+          - Prepared quizzes, held office hours, graded homework and exams, mentored 70+ students, and guided problem-solving sessions on semiconductor device concepts.
+
+      - company: Duke University
+        position: Graduate Teaching Assistant, ECE539 CMOS VLSI Design Methodologies
+        location: Durham, NC
+        start_date: 2022-08
+        end_date: 2022-12
+        highlights:
+          - Lectured, updated project tutorials, held lab sessions and office hours, graded assignments and exams, mentored 20+ students, and supervised 5 practical labs.
+
+      - company: Duke University
+        position: Graduate Teaching Assistant, ECE550 Fundamentals of Computer Systems and Engineering
+        location: Durham, NC
+        start_date: 2022-06
+        end_date: 2022-08
+        highlights:
+          - Lectured, updated project tutorials, held lab sessions, mentored 100+ students, and supervised 3 practical labs.
+
+      - company: School of Electronic Engineering, Southeast University
+        position: Laboratory Administrator
+        location: Nanjing, China
+        start_date: 2017-09
+        end_date: 2018-06
+        highlights:
+          - Maintained laboratory equipment, supported a positive student environment, and carried out electro-welding practice training.
+
+      - company: Science and Technology Summer Camp, Southeast University
+        position: Teacher
+        location: Yunnan, China
+        start_date: 2017-07
+        end_date: 2017-07
+        highlights:
+          - Instructed rural middle school students through modern science lectures and practical activities.
+          - Won the AkzoNobel China Student Sustainability Bronze Award in local education news.
+
+    Publications:
+      - title: "3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning"
+        authors:
+          - Shuting Du
+          - L. Zheng
+          - A.-M. Parvathy
+          - F. Xie
+          - T. Wei
+          - A. Raghunathan
+          - Haitong Li
+        publisher: ACM/IEEE Design Automation Conference (DAC)
+        releaseDate: "2025"
+
+      - title: "Cross-Layer Design of Vector-Symbolic Computing: Bridging Cognition and Brain-Inspired Hardware Acceleration"
+        authors:
+          - Shuting Du
+          - M. Ibrahim
+          - Z. Wan
+          - L. Zheng
+          - B. Zhao
+          - Z. Fan
+          - C.-K. Liu
+          - T. Krishna
+          - A. Raychowdhury
+          - Haitong Li
+        publisher: ACM Transactions on Embedded Computing Systems
+        releaseDate: "2026"
+
+      - title: "Monolithic 3-D Integration of Diverse Memories: Resistive Switching (RRAM) and Gain Cell (GC) Memory Integrated on Si CMOS"
+        authors:
+          - S. Liu
+          - R. M. Radway
+          - X. Wang
+          - F. Moro
+          - J.-F. Nodin
+          - K. Jana
+          - L. Yan
+          - Shuting Du
+          - L. R. Upton
+          - W.-C. Chen
+          - J. Kang
+          - J. Chen
+          - H. Li
+          - F. Andrieu
+          - E. Vianello
+          - P. Raina
+          - S. Mitra
+          - H.-S. P. Wong
+        publisher: IEEE Transactions on Electron Devices
+        releaseDate: "2025"
+
+      - title: "CENTAUR: A 38.5-TFLOPS/W 600MHz Floating-Point Digital Compute-In-Memory Engine with 40nm Fusion RRAM-eDRAM Macros Featuring 3D-MAC Operation"
+        authors:
+          - L. Zheng
+          - A. M. Bavani
+          - Shuting Du
+          - T.-Y. Hsin
+          - M. Chen
+          - W.-S. Khwa
+          - A. Lele
+          - H. Chuang
+          - Y.-D. Chih
+          - M.-F. Chang
+          - Haitong Li
+        publisher: IEEE Asian Solid-State Circuits Conference (ASSCC)
+        releaseDate: "2025"
+
+      - title: "PROTEUS: A 40nm 6.4-TOPS/W Programmable General-Purpose Digital-CIM Accelerator with Embedded-RRAM and Hierarchical-DCIM-ISA for Versatile Edge-AI"
+        authors:
+          - L. Zheng
+          - A. M. Bavani
+          - M. Chen
+          - Shuting Du
+          - T.-Y. Hsin
+          - W.-S. Khwa
+          - P.-S. Wu
+          - A. Lele
+          - B. Zhang
+          - B. Crafton
+          - H. Chuang
+          - Y.-D. Chih
+          - M.-F. Chang
+          - Haitong Li
+        publisher: IEEE Journal of Solid-State Circuits
+        releaseDate: "2026"
+
+      - title: "Heterogeneous Compute-in-Memory Fabrics for Efficient, Scalable Edge Inference and Learning"
+        authors:
+          - L. Zheng
+          - Z. Wang
+          - Shuting Du
+          - M. Chen
+          - A. M. Bavani
+          - Haitong Li
+        publisher: International Symposium on Quality Electronic Design (ISQED)
+        releaseDate: "2026"
+
+      - title: "Device-Circuit Co-Design of Reconfigurable 2T Oxide Semiconductor Based Non-Volatile Gain-Cell Memory and Floating-Point 3D LLM Accelerator"
+        authors:
+          - L. Zheng
+          - C. Niu
+          - Shuting Du
+          - S. Lee
+          - A. M. Bavani
+          - Z. Lin
+          - P. D. Ye
+          - H. Chuang
+          - Haitong Li
+        publisher: To be submitted to VLSI
+        releaseDate: "2026"
+
+      - title: "200mm Wafer-Scale Monolithic 3D Integration of ALD Oxide Semiconductors for Multi-Tier 3D Integrated Circuits"
+        authors:
+          - C. Niu
+          - L. Long
+          - L. Zheng
+          - Shuting Du
+          - J.-Y. Lin
+          - Z. Lin
+          - C. Liu
+          - H. Wang
+          - Haitong Li
+          - P.-D. Ye
+        publisher: Nature Nanotechnology (under review)
+        releaseDate: "2026"
+
+      - title: "Edge Continual Training and Inference with RRAM-Gain Cell Memory Integrated on Si CMOS"
+        authors:
+          - S. Liu
+          - R. Radway
+          - X. Wang
+          - F. Moro
+          - J.-F. Nodin
+          - K. Jana
+          - Shuting Du
+          - L. Upton
+          - W.-C. Chen
+          - J. Chen
+          - H. Li
+          - F. Andrieu
+          - E. Vianello
+          - P. Raina
+          - S. Mitra
+          - H.-S. P. Wong
+        publisher: IEEE International Electron Devices Meeting (IEDM)
+        releaseDate: "2024"
+
+    Honors and Awards:
+      - title: Design Automation Conference Young Fellow
+        date: "2024"
+        awarder: Design Automation Conference
+      - title: Alumni Scholarship
+        date: "2020"
+        awarder: Southeast University, China
+      - title: Outstanding Student Award (Top 7.5%)
+        date: "2017"
+        awarder: Southeast University, China
+      - title: Outstanding Student Award (Technology Innovation and Entrepreneurship)
+        date: "2017"
+        awarder: Southeast University, China
+
+    Professional Service:
+      - company: ICCAD 2024
+        position: Reviewer
+      - company: IEEE Access
+        position: Reviewer
+
+    Research Presentations:
+      - name: Transformer accelerators
+        summary: Invited talk at TSMC Ltd., November 2023.
+      - name: Memory-Centric 3D NanoSystems Lead the Way to Energy-Efficient Artificial Intelligence Hardware
+        summary: Purdue Student Research Poster Presentation to the Semiconductor Degree Leadership Board, October 2023.
+      - name: Cross-Layer Design of Vector-Symbolic Computing
+        summary: Purdue ECE Graduate Symposium research poster presentation, October 2024.
+      - name: 3D-CIMlet
+        summary: Conference talk at DAC, June 2025.
+      - name: Heterogeneous Chiplet-based LLM Acceleration
+        summary: Poster presentation at Purdue ECE Graduate Symposium and Purdue Workshop on CHIPS and AI, October 2025.
+      - name: Future of Memory-Centric AI Hardware
+        summary: Invited talk at UPWARDS technical meeting, October 2025.
