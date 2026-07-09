@@ -5,19 +5,16 @@
     <ol class="bibliography">
       {% for item in site.data.education %}
         {% assign start_year = item.start_date | slice: 0, 4 %}
-        {% assign start_short = item.start_date | slice: 2, 2 %}
         {% if item.end_date == 'present' %}
-          {% assign duration = start_short | append: '–Pres.' %}
+          {% assign duration = start_year | append: '–Present' %}
         {% else %}
-          {% assign end_short = item.end_date | slice: 2, 2 %}
-          {% assign duration = start_short | append: '–' | append: end_short %}
+          {% assign end_year = item.end_date | slice: 0, 4 %}
+          {% assign duration = start_year | append: '–' | append: end_year %}
         {% endif %}
         <li>
           <div class="row">
             <div class="col col-sm-2 abbr">
-              <abbr class="date-badge badge rounded w-100">
-                <div>{{ duration }}</div>
-              </abbr>
+              <abbr class="badge rounded w-100">{{ duration }}</abbr>
             </div>
             <div class="col-sm-10">
               <div class="title">{{ item.institution }}</div>

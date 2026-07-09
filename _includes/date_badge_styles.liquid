@@ -1,11 +1,28 @@
 {% unless date_badge_styles_included %}
   <style>
-    .date-badge {
-      background-color: var(--global-theme-color);
-      color: var(--global-card-bg-color) !important;
-      font-size: 1rem;
-      font-weight: 600;
+    .publications ol.bibliography li .abbr abbr,
+    .publications ol.bibliography li .abbr abbr div,
+    .news .abbr abbr {
+      color: #fff !important;
+    }
+
+    .news .abbr {
+      margin-bottom: 0.5rem;
+    }
+
+    .news .abbr abbr {
       display: inline-block;
+      background-color: var(--global-theme-color);
+      margin-bottom: 0.5rem;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+      padding: 0.25em 0.4em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      width: 100%;
     }
 
     .news th.date-col {

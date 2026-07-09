@@ -1,0 +1,13 @@
+<li class="list-group-item">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-md-0">
+<h6 class="title font-weight-bold ml-1 ml-md-4">{{ include.item.title }}</h6>
+{% if include.item.description %}
+<h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ include.item.description }}</h6>
+{% endif %}
+{% if include.item.content != blank %}
+<div class="ml-1 ml-md-4 font-weight-light">{{ include.item.content }}</div>
+{% endif %}
+</div>
+</div>
+</li>

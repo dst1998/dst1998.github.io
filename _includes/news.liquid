@@ -18,7 +18,9 @@
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" class="date-col">
-              <abbr class="date-badge badge rounded">{{ item.date | date: '%b %Y' }}</abbr>
+              <div class="abbr">
+                <abbr class="badge rounded w-100">{{ item.date | date: '%b %Y' }}</abbr>
+              </div>
             </th>
             <td>
               {% if item.inline %}
