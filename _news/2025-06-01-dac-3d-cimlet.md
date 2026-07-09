@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gave a DAC conference talk on 3D-CIMlet, a chiplet co-design framework for heterogeneous in-memory edge LLM acceleration.
+Gave a talk on "3D-CIMlet, a chiplet co-design framework for heterogeneous in-memory edge LLM acceleration" at DAC conference.

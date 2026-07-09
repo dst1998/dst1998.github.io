@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented research on cross-layer design of vector-symbolic computing at the Purdue ECE Graduate Symposium.
+Presented research on "Cross-layer Design of Vector-Symbolic Computing" at the Purdue ECE Graduate Symposium.

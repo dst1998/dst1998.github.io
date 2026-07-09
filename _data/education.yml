@@ -4,6 +4,7 @@
   studyType: Doctor of Philosophy
   start_date: 2023-08
   end_date: present
+  color: "#CFB991"
 
 - institution: Duke University
   location: Durham, NC
@@ -11,6 +12,7 @@
   studyType: Master of Science
   start_date: 2021-08
   end_date: 2023-05
+  color: "#003087"
 
 - institution: Southeast University
   location: Nanjing, China
@@ -18,3 +20,4 @@
   studyType: Bachelor of Engineering
   start_date: 2016-09
   end_date: 2020-06
+  color: "#8B2332"

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited talk with Marvell Technology on "Enabling Memory Tiering in ASTRA-sim with Extended Chakra Traces" at ASTRA-sim tutorial at ISCA.
+Invited talk on "Enabling Memory Tiering in ASTRA-sim with Extended Chakra Traces" with Marvell Technology at ASTRA-sim Tutorial in ISCA.

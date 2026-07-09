@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in School of Electrical and Computer Engineering at Purdue University</a>
+subtitle: PhD student in School of Electrical and Computer Engineering at Purdue University
 
 profile:
   align: right
