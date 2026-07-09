@@ -6,7 +6,7 @@ subtitle: PhD student in School of Electrical and Computer Engineering at Purdue
 
 profile:
   align: right
-  image: IMG_6816.PNG
+  image: IMG_sd.jpeg
   image_circular: true # crops the image to make it circular
   # more_info: >
     # <p>NanoX Lab</p>
@@ -34,4 +34,4 @@ I am a PhD student in the <a href="https://engineering.purdue.edu/ECE/">School o
 
 I work across device, circuit, architecture, and system levels to model and optimize AI/ML workloads. Recent projects include 3D-CIMlet for heterogeneous in-memory edge LLM acceleration, floating-point compute-in-memory engines with RRAM-eDRAM fusion, reconfigurable oxide-semiconductor memory for 3D LLM accelerators, and cross-layer frameworks for vector-symbolic computing.
 
-Before Purdue, I earned my M.S. in Electrical and Computer Engineering from <a href="https://www.duke.edu/">Duke University</a> in 2023 and my B.E. in Electronic Science and Technology from <a [href="https://www.seu.edu.cn/english/">Southeast University</a> in 2020. I have also conducted research at Duke University's Center of Computational Evolutionary Intelligence, Arizona State University's Efficient, Secure and Intelligent Computing Lab, and Southeast University's SEU-FEI Nano-Pico Center.
+Before Purdue, I earned my M.S. in Electrical and Computer Engineering from <a href="https://www.duke.edu/">Duke University</a> in 2023 and my B.E. in Electronic Science and Technology from <a href="https://www.seu.edu.cn/english/">Southeast University</a> in 2020. I have also conducted research at Duke University's Center of Computational Evolutionary Intelligence, Arizona State University's Efficient, Secure and Intelligent Computing Lab, and Southeast University's SEU-FEI Nano-Pico Center.
