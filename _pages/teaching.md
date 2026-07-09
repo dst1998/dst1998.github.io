@@ -5,6 +5,7 @@ title: teaching
 description: Teaching assistant and laboratory experience.
 nav: false
 nav_order: 6
+redirect: /experience/#teach
 calendar: false
 ---
 

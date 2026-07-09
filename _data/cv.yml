@@ -173,56 +173,6 @@ cv:
           - Developed autoregressive image generation on MNIST and language modeling on WikiText with memory optimization.
           - Explored memory-state processing and integration in memory-augmented Transformers for longer sequence processing.
 
-    Teaching and Laboratory Experience:
-      - company: Purdue University
-        position: Graduate Teaching Assistant, ECE20008 Electrical Engineering Fundamentals Laboratory
-        location: West Lafayette, IN
-        start_date: 2026-01
-        end_date: 2026-05
-        highlights:
-          - Lectured, held office hours, graded homework and exams, mentored 50+ students, and supervised 10+ mixed-signal IC labs.
-
-      - company: Purdue University
-        position: Graduate Teaching Assistant, ECE305 Semiconductor Devices
-        location: West Lafayette, IN
-        start_date: 2024-08
-        end_date: 2024-12
-        highlights:
-          - Prepared quizzes, held office hours, graded homework and exams, mentored 70+ students, and guided problem-solving sessions on semiconductor device concepts.
-
-      - company: Duke University
-        position: Graduate Teaching Assistant, ECE539 CMOS VLSI Design Methodologies
-        location: Durham, NC
-        start_date: 2022-08
-        end_date: 2022-12
-        highlights:
-          - Lectured, updated project tutorials, held lab sessions and office hours, graded assignments and exams, mentored 20+ students, and supervised 5 practical labs.
-
-      - company: Duke University
-        position: Graduate Teaching Assistant, ECE550 Fundamentals of Computer Systems and Engineering
-        location: Durham, NC
-        start_date: 2022-06
-        end_date: 2022-08
-        highlights:
-          - Lectured, updated project tutorials, held lab sessions, mentored 100+ students, and supervised 3 practical labs.
-
-      - company: School of Electronic Engineering, Southeast University
-        position: Laboratory Administrator
-        location: Nanjing, China
-        start_date: 2017-09
-        end_date: 2018-06
-        highlights:
-          - Maintained laboratory equipment, supported a positive student environment, and carried out electro-welding practice training.
-
-      - company: Science and Technology Summer Camp, Southeast University
-        position: Teacher
-        location: Yunnan, China
-        start_date: 2017-07
-        end_date: 2017-07
-        highlights:
-          - Instructed rural middle school students through modern science lectures and practical activities.
-          - Won the AkzoNobel China Student Sustainability Bronze Award in local education news.
-
     Publications:
       - title: "3D-CIMlet: A Chiplet Co-Design Framework for Heterogeneous In-Memory Acceleration of Edge LLM Inference and Continual Learning"
         authors:
@@ -383,12 +333,6 @@ cv:
       - title: Outstanding Student Award (Technology Innovation and Entrepreneurship)
         date: "2017"
         awarder: Southeast University, China
-
-    Professional Service:
-      - company: ICCAD 2024
-        position: Reviewer
-      - company: IEEE Access
-        position: Reviewer
 
     Research Presentations:
       - name: Transformer accelerators
