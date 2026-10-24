@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ICCAD 2024
-description: Conference reviewer
+description: Conference reviewer.
 importance: 1
 category: service
 ---
