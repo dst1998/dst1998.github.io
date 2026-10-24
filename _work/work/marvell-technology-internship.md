@@ -8,5 +8,4 @@ importance: 1
 category: work
 ---
 
-Designed and built a full-stack memory tiering simulation system for large-scale AI inference, integrating CXL memory expansion and near-memory compute backends across a heterogeneous memory hierarchy. Extended the MLCommons Chakra execution trace standard with tier-aware memory semantics and presented the work at the Astra-sim Tutorial at ISCA 2026.
-
+Built a full-stack, multi-tier memory simulation and co-design framework for large-scale AI inference workloads to enable fast, pre-silicon design-space exploration and verification across compute, memory, and networking for hyperscale AI systems.

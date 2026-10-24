@@ -8,4 +8,4 @@ importance: 1
 category: research
 ---
 
-Research on high-performance, low-power AI systems spanning heterogeneous chiplet co-design, floating-point compute-in-memory, reconfigurable oxide-semiconductor memory, vector-symbolic computing, and system-technology co-optimization for edge intelligence.
+Research on high-performance, low-power AI systems spanning large language models, neuro-symbolic computing, heterogeneous chiplet co-design, memory-centric architectures, emerging technologies, and advanced packaging with system-technology co-optimization for edge intelligence.
