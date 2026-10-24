@@ -12,7 +12,7 @@
   also injected.
 {% endcomment %}
 {% assign ga4_id = site.ga4_cookieless %}
-{% if ga4_id and ga4_id != "" %}
+{% if ga4_id and ga4_id != '' %}
   <!-- Google Analytics 4 (cookieless) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga4_id }}"></script>
   <script>
@@ -20,7 +20,7 @@
     function gtag() {
       window.dataLayer.push(arguments);
     }
-    gtag("js", new Date());
-    gtag("config", "{{ ga4_id }}", { client_storage: "none" });
+    gtag('js', new Date());
+    gtag('config', '{{ ga4_id }}', { client_storage: 'none' });
   </script>
 {% endif %}

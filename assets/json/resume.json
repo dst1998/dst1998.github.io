@@ -190,7 +190,15 @@
     },
     {
       "name": "Hardware and Architecture",
-      "keywords": ["RTL design", "Microarchitecture", "Low-power design", "PPA optimization", "3D-IC/chiplet architecture", "On-chip networks", "Memory systems"]
+      "keywords": [
+        "RTL design",
+        "Microarchitecture",
+        "Low-power design",
+        "PPA optimization",
+        "3D-IC/chiplet architecture",
+        "On-chip networks",
+        "Memory systems"
+      ]
     }
   ],
   "languages": [],

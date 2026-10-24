@@ -1,81 +1,81 @@
 <style>
-.experience-page .experience-item ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-}
-.experience-page .experience-item ul li {
-  padding-left: 0;
-  margin-left: 0;
-}
-.experience-item-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  margin-bottom: 0.25rem;
-}
-.experience-item-period {
-  color: var(--global-text-color-light);
-  font-size: 0.95rem;
-  white-space: nowrap;
-  margin-left: auto;
-  text-align: right;
-}
-#toc-sidebar {
-  overflow-y: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-#toc-sidebar::-webkit-scrollbar {
-  display: none;
-}
+  .experience-page .experience-item ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .experience-page .experience-item ul li {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .experience-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .experience-item-period {
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    white-space: nowrap;
+    margin-left: auto;
+    text-align: right;
+  }
+  #toc-sidebar {
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  #toc-sidebar::-webkit-scrollbar {
+    display: none;
+  }
 </style>
 {% if site.enable_work_categories and page.display_categories %}
-<div class="cv experience-page">
-{% for category in page.display_categories %}
-{% case category %}
-{% when 'work' %}
-{% assign category_label = 'Industry' %}
-{% when 'research' %}
-{% assign category_label = 'Research' %}
-{% when 'teach' %}
-{% assign category_label = 'Teaching' %}
-{% when 'presentations' %}
-{% assign category_label = 'Presentations and Posters' %}
-{% when 'service' %}
-{% assign category_label = 'Professional Service' %}
+  <div class="cv experience-page">
+    {% for category in page.display_categories %}
+      {% case category %}
+        {% when 'work' %}
+          {% assign category_label = 'Industry' %}
+        {% when 'research' %}
+          {% assign category_label = 'Research' %}
+        {% when 'teach' %}
+          {% assign category_label = 'Teaching' %}
+        {% when 'presentations' %}
+          {% assign category_label = 'Presentations and Posters' %}
+        {% when 'service' %}
+          {% assign category_label = 'Professional Service' %}
+        {% else %}
+          {% assign category_label = category | capitalize %}
+      {% endcase %}
+      <a class="anchor" id="{{ category_label | slugify }}"></a>
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">{{ category_label }}</h3>
+        <div class="experience-items">
+          {% assign categorized_work = site.work | where: 'category', category %}
+          {% if category == 'presentations' %}
+            {% assign sorted_work = categorized_work | sort: 'date' | reverse %}
+          {% else %}
+            {% assign sorted_work = categorized_work | sort: 'importance' %}
+          {% endif %}
+          {% for item in sorted_work %}
+            {% include experience_item.liquid item=item %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 {% else %}
-{% assign category_label = category | capitalize %}
-{% endcase %}
-<a class="anchor" id="{{ category_label | slugify }}"></a>
-<div class="card mt-3 p-3">
-<h3 class="card-title font-weight-medium">{{ category_label }}</h3>
-<div class="experience-items">
-{% assign categorized_work = site.work | where: 'category', category %}
-{% if category == 'presentations' %}
-{% assign sorted_work = categorized_work | sort: 'date' | reverse %}
-{% else %}
-{% assign sorted_work = categorized_work | sort: 'importance' %}
-{% endif %}
-{% for item in sorted_work %}
-{% include experience_item.liquid item=item %}
-{% endfor %}
-</div>
-</div>
-{% endfor %}
-</div>
-{% else %}
-<div class="cv experience-page">
-<div class="card mt-3 p-3">
-<h3 class="card-title font-weight-medium">Experience</h3>
-<div class="experience-items">
-{% assign sorted_work = site.work | sort: 'importance' %}
-{% for item in sorted_work %}
-{% include experience_item.liquid item=item %}
-{% endfor %}
-</div>
-</div>
-</div>
+  <div class="cv experience-page">
+    <div class="card mt-3 p-3">
+      <h3 class="card-title font-weight-medium">Experience</h3>
+      <div class="experience-items">
+        {% assign sorted_work = site.work | sort: 'importance' %}
+        {% for item in sorted_work %}
+          {% include experience_item.liquid item=item %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 {% endif %}

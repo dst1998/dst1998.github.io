@@ -9,9 +9,9 @@ profile:
   image: IMG_sd.jpeg
   image_circular: true # crops the image to make it circular
   # more_info: >
-    # <p>NanoX Lab</p>
-    # <p>Purdue University</p>
-    # <p>West Lafayette, IN 47906</p>
+  # <p>NanoX Lab</p>
+  # <p>Purdue University</p>
+  # <p>West Lafayette, IN 47906</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 education: true # includes education block before news
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in the <a href="https://engineering.purdue.edu/ECE/">School of Electrical and Computer Engineering</a> at <a href="https://www.purdue.edu/">Purdue University</a>, advised by <a href="https://engineering.purdue.edu/~haitongl/">Prof. Haitong Li</a> in 
+I am a PhD student in the <a href="https://engineering.purdue.edu/ECE/">School of Electrical and Computer Engineering</a> at <a href="https://www.purdue.edu/">Purdue University</a>, advised by <a href="https://engineering.purdue.edu/~haitongl/">Prof. Haitong Li</a> in
 <a href="https://engineering.purdue.edu/NanoX/">NanoX Lab</a>. My research focuses on high-performance, low-power AI systems and hardware-software co-design, with an emphasis on 3D-IC architectures, compute-in-memory chips, heterogeneous chiplets, and memory-centric accelerators for edge AI.
 
 I work across device, circuit, architecture, and system levels to model and optimize AI/ML workloads. Recent projects include <a href="https://github.com/NanoX-Lab/3D-CIMlet">3D-CIMlet</a> for heterogeneous in-memory edge LLM acceleration, floating-point compute-in-memory engines with RRAM-eDRAM fusion, reconfigurable oxide-semiconductor memory for 3D LLM accelerators, and cross-layer frameworks for vector-symbolic computing.

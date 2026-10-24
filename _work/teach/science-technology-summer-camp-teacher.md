@@ -7,5 +7,5 @@ importance: 6
 category: teach
 ---
 
-Instructed rural middle school students in modern scientific knowledge through lectures and practical activities. 
+Instructed rural middle school students in modern scientific knowledge through lectures and practical activities.
 Won the AkzoNobel China Student Sustainability Bronze Award in local education news.

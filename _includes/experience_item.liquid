@@ -1,36 +1,36 @@
 <div class="experience-item mb-4">
-{% assign period = null %}
-{% if include.item.category == 'presentations' and include.item.date %}
-  {% assign presentation_date = include.item.date %}
-  {% if presentation_date.size == 7 %}
-    {% assign presentation_date = presentation_date | append: '-01' %}
-  {% endif %}
-  {% assign period = presentation_date | date: '%b %Y' %}
-{% elsif include.item.start_date %}
-  {% assign period_start = include.item.start_date | append: '-01' | date: '%b %Y' %}
-  {% if include.item.end_date == 'present' %}
-    {% assign period = period_start | append: ' - present' %}
-  {% elsif include.item.end_date %}
-    {% assign period_end = include.item.end_date | append: '-01' | date: '%b %Y' %}
-    {% if period_start == period_end %}
-      {% assign period = period_start %}
-    {% else %}
-      {% assign period = period_start | append: ' - ' | append: period_end %}
+  {% assign period = null %}
+  {% if include.item.category == 'presentations' and include.item.date %}
+    {% assign presentation_date = include.item.date %}
+    {% if presentation_date.size == 7 %}
+      {% assign presentation_date = presentation_date | append: '-01' %}
     {% endif %}
-  {% else %}
-    {% assign period = period_start %}
+    {% assign period = presentation_date | date: '%b %Y' %}
+  {% elsif include.item.start_date %}
+    {% assign period_start = include.item.start_date | append: '-01' | date: '%b %Y' %}
+    {% if include.item.end_date == 'present' %}
+      {% assign period = period_start | append: ' - present' %}
+    {% elsif include.item.end_date %}
+      {% assign period_end = include.item.end_date | append: '-01' | date: '%b %Y' %}
+      {% if period_start == period_end %}
+        {% assign period = period_start %}
+      {% else %}
+        {% assign period = period_start | append: ' - ' | append: period_end %}
+      {% endif %}
+    {% else %}
+      {% assign period = period_start %}
+    {% endif %}
   {% endif %}
-{% endif %}
-<div class="experience-item-header">
-<h6 class="title font-weight-bold mb-0">{{ include.item.title }}</h6>
-{% if period %}
-<span class="experience-item-period">{{ period }}</span>
-{% endif %}
-</div>
-{% if include.item.description %}
-<p class="desc mb-2">{{ include.item.description }}</p>
-{% endif %}
-{% if include.item.content != blank %}
-<div class="font-weight-light experience-item-content">{{ include.item.content }}</div>
-{% endif %}
+  <div class="experience-item-header">
+    <h6 class="title font-weight-bold mb-0">{{ include.item.title }}</h6>
+    {% if period %}
+      <span class="experience-item-period">{{ period }}</span>
+    {% endif %}
+  </div>
+  {% if include.item.description %}
+    <p class="desc mb-2">{{ include.item.description }}</p>
+  {% endif %}
+  {% if include.item.content != blank %}
+    <div class="font-weight-light experience-item-content">{{ include.item.content }}</div>
+  {% endif %}
 </div>
