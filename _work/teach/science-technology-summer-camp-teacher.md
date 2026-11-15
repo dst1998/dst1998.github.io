@@ -3,7 +3,7 @@ layout: page
 title: Science and Technology Summer Camp Teacher
 description: Southeast University outreach program in Yunnan, China
 start_date: 2017-07
-importance: 6
+importance: 7
 category: teach
 ---
 

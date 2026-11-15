@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DAC 3D-CIMlet Talk
+title: Design Automation Conference 3D-CIMlet Talk
 date: 2025-06-01
 category: presentations
 importance: 4
